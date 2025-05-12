@@ -21,10 +21,11 @@ body{
     text-decoration: none;
     font-weight: bold;
 }
-
+img{
+    margin-left: 20px;
+}
 .Idioma select{
     width: 100px;
-    
     border-radius: 5px;
     border:2px solid rgba(255, 255, 255, 0.799);
     background-color: rgba(255, 255, 255, 0.397);
@@ -36,7 +37,7 @@ nav{
     width: 140px;
     height: 60px;
     position: relative;
-    left: 1150px;
+    left: 1120px;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px 20px;
@@ -45,7 +46,7 @@ nav{
 
 
 .Menu{    
-    width: 180px;
+    width: 200px;
     height: 500px;
     margin-left: 20px;
     background-color: rgba(255, 255, 255, 0.523);
@@ -62,7 +63,7 @@ nav{
 .Menu ul{
     position: relative;
     top: -20px;
-    right: 30px; 
+    right: 40px; 
 }
 
 .Menu ul  img{
@@ -97,7 +98,7 @@ nav{
     width: 130px;
     margin-top: 10px;
     position: relative;
-    left: -25px;
+    left: -10px;
     align-content: center;
     color: rgb(13, 13, 13);
     
