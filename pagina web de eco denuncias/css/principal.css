@@ -13,6 +13,9 @@ body{
     font-family: "poppinis", sans-serif;
 }
 
+.ley{
+    display: flex;
+}
 .ley a{
     margin-left: 20px;
     text-decoration: none;
@@ -30,26 +33,16 @@ body{
 }
 
 nav{
-    display: flex;
-    justify-content: end;
-    gap: 15px;
+    width: 140px;
+    height: 60px;
+    position: relative;
+    left: 1150px;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px 20px;
 
 }
-.Texto span{
-    color: white;
-}
-.Texto button{
-    font-weight: bold;
-    width: 30px;
-    border:2px solid rgba(255, 255, 255, 0.799);
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.397);
-    color: rgb(255, 255, 255);
-    transition: background-color 0.3s ease;
-}
+
 
 .Menu{    
     width: 180px;
@@ -111,15 +104,5 @@ nav{
 }
 
 
-.Logo{
-    display: flex;    
-    justify-content: center;
-    justify-items: center;
 
-}
-h1{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    color: rgb(255, 255, 255);
-}
+
