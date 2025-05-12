@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    min-height: 100vh;
+    background: url(../assets/images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: "poppinis", sans-serif;
+}
+
+.ley a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Idioma select{
+    width: 100px;
+    
+    border-radius: 5px;
+    border:2px solid rgba(255, 255, 255, 0.799);
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 10px 5px;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px 20px;
+
+}
+.Texto span{
+    color: white;
+}
+.Texto button{
+    font-weight: bold;
+    width: 30px;
+    border:2px solid rgba(255, 255, 255, 0.799);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.397);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+
+.Menu{    
+    width: 180px;
+    height: 500px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.523);
+    border:2px solid rgba(194, 162, 162, 0.319);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: rgba(225, 205, 205, 0.879);
+    border-radius: 10px;
+    padding: 40px 40px 20px;
+    position: absolute;
+    top: 15%;
+}
+
+.Menu ul{
+    position: relative;
+    top: -20px;
+    right: 30px; 
+}
+
+.Menu ul  img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding:5px 5px;
+    
+}
+.Menu a{
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px 10px;
+    color: #000;
+}
+.Menu ul a{
+    color: #000;
+    text-decoration: none;    
+}
+
+.Menu a:hover{
+    color: green;
+}
+.Menu:hover{
+    background-color: white;
+}
+.sesion {
+    height: 50px;
+    width: 130px;
+    margin-top: 10px;
+    position: relative;
+    left: -25px;
+    align-content: center;
+    color: rgb(13, 13, 13);
+    
+}
+
+
+.Logo{
+    display: flex;    
+    justify-content: center;
+    justify-items: center;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(255, 255, 255);
+}
