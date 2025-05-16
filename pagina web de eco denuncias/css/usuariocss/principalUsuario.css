@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    min-height: 100vh;
+    background: url(../../assets/images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: "poppinis", sans-serif;
+}
+
+.ley{
+    display: flex;
+}
+.ley a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Idioma select{
+    width: 100px;
+    
+    border-radius: 5px;
+    border:2px solid rgba(255, 255, 255, 0.799);
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 10px 5px;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    width: 140px;
+    height: 60px;
+    position: relative;
+    left: 1180px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px 20px;
+
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    top: 35px;
+}
+
+img{
+    position: relative;
+    top: -80px;
+}
+
+.contenido:hover{
+    background: white;
+}
+
+.contenido{
+    width: 550px;
+    height: 500px;
+    border: 2px solid;
+    justify-items: center;
+    border:2px solid rgba(255, 255, 255, 0.799);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.811);
+    color: rgb(23, 149, 23);
+}
+
+p{
+    width: 490px;
+    text-align: center;
+}
+
+.texto{
+    position: absolute;
+    bottom: 180px;
+    left: 120px;
+    width: 700px;
+    color: white;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: green;
+    border: 2px solid white;
+}
+
+
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+.boton {
+    margin-top: 40px;
+    
+}
