@@ -1,0 +1,128 @@
+/* Estilo del body */
+body {
+    background-image: url('../assets/images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo del header */
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: transparent;  /* Sin fondo */
+    color: #000;
+}
+
+/* Logo y título alineado a la izquierda */
+.denuncias-header {
+    display: flex;
+    align-items: center; /* Alinear verticalmente */
+    gap: 1rem;  /* Espacio entre la imagen y el texto */
+    position: absolute;
+    top: 70px;  /* Margen superior */
+    left: 20px;  /* Margen izquierdo */
+}
+
+.denuncias-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.denuncias-title {
+    font-size: 2rem;
+    margin: 0;
+    color: #4caf50;
+}
+
+/* Contenedor de la sección de denuncias */
+.denuncias-section {
+    width: 100%;
+    max-width: 870px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: .3rem; /* Aumentar padding */
+    margin-top: 0px; /* Espacio después del encabezado */
+    margin: 50px auto 0 auto; /* Centrar horizontalmente */
+    box-sizing: border-box /* Incluir padding en el tamaño total */
+}
+
+/* Forzar padding y verificar bordes */
+.denuncias-section * {
+    padding: 0.8rem; /* Asegurarse de que los elementos internos tengan espacio */
+}
+
+/* Estilo del buscador */
+.denuncias-search-input {
+    width: 95%;
+    padding: 1rem;  /* Aumento en padding */
+    font-size: 1.2rem;  /* Aumento en tamaño de fuente */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: .1rem;
+}
+
+/* Estilo del contenedor */
+.contenedor-mensaje {
+    position: fixed;  /* Fijado en la pantalla */
+    bottom: 0;        /* Coloca el mensaje en la parte inferior */
+    left: 0;          /* Alineado al borde izquierdo */
+    width: auto;      /* El ancho se ajusta al contenido */
+    text-align: left; /* Texto alineado a la izquierda */
+    background-color: transparent; /* Sin fondo */
+    padding: 0;       /* Sin espaciado adicional */
+}
+
+/* Estilo del mensaje ambiental */
+.mensaje-ambiental {
+    font-size: 2.5rem;  /* Aumentado para mayor visibilidad */
+    color: #4caf50;         /* Color del texto */
+    margin: 0;           /* Eliminar márgenes */
+}
+
+/* Estilo de la tabla */
+.tabla-busqueda {
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.95);
+    font-size: 2.2rem; /* Aumento significativo en el tamaño de texto */
+}
+
+/* Estilo de las celdas */
+.tabla-busqueda th,
+.tabla-busqueda td {
+    padding: 25px; /* Aumenta el padding de las celdas */
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #000;
+    font-size: 2rem;  /* Aumento en el tamaño de la fuente de las celdas */
+}
+
+/* Estilo de los encabezados */
+.tabla-busqueda th {
+    background-color: #00897b;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilo de las filas alternadas */
+.tabla-busqueda tbody tr:nth-child(even) {
+    background-color: #e0f2f1; 
+}
+
+/* Estilo del último td */
+.tabla-busqueda tbody td:last-child {
+    color: #1e88e5; 
+}

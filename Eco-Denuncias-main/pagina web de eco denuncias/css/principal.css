@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    min-height: 100vh;
+    background: url(../assets/images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: "poppinis", sans-serif;
+}
+
+.ley{
+    display: flex;
+}
+.ley a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.imagen img{
+    width: 550px;
+    height: 400px;
+ 
+}
+.Idioma select{
+    width: 100px;
+    border-radius: 5px;
+    border:2px solid rgba(255, 255, 255, 0.799);
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 10px 5px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.rol select{
+    width: 100px;
+    border-radius: 5px;
+    border:2px solid rgba(255, 255, 255, 0.799);
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 10px 5px;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    padding: 10px 20px 20px;
+    gap: 20px ;
+}
+
+
+.Menu{    
+    width: 200px;
+    height: 470px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.523);
+    border:2px solid rgb(20, 20, 18);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: rgba(225, 205, 205, 0.879);
+    border-radius: 30px;
+    padding: 40px 40px 20px;
+    position: absolute;
+    top: 15%;
+}
+
+.Menu ul{
+    position: relative;
+    top: -20px;
+    right: 40px; 
+    padding-left: 70px;
+}
+
+.Menu ul  img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding:5px 5px;
+    
+}
+.Menu a{
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px 10px;
+    color: #000;
+}
+.Menu ul a{
+    color: #000;
+    text-decoration: none;    
+}
+
+.Menu a:hover{
+    color: green;
+}
+.Menu:hover{
+    background-color: white;
+}
+select:hover{
+    background: green;
+}
+.sesion {
+    height: 50px;
+    width: 130px;
+    margin-top: 10px;
+    position: relative;
+    left: -35px;
+    align-content: center;
+    color: rgb(13, 13, 13);
+    
+}
+
+
+
+
