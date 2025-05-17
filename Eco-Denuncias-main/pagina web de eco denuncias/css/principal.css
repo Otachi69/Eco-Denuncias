@@ -4,8 +4,7 @@
 }
 
 body{
-    min-height: 100vh;
-    background: url(../assets/images/fondo.jpg);
+    background: url(../assets/images/Fondo\ pagina.png);
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -30,7 +29,7 @@ body{
 
 .imagen img{
     width: 550px;
-    height: 400px;
+    height: 450px;
  
 }
 .Idioma select{

@@ -13,6 +13,8 @@ body{
     
 }
 
+
+
 .ley{
     display: flex;
 }
@@ -39,42 +41,51 @@ nav{
     
 }
 
-
-.botones{
+h1{
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 100px;
-    gap: 30px;
-}
-.botones button{
-    width: 200px;
-    height: 260px;
-    background-color: rgba(255, 255, 255, 0.526);
-    border: 2px solid rgba(255, 255, 255, 0.799);
-    border-radius: 20px;
-}
-a{
-    position: relative;
-    top: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: green;
-    font-weight: bold;
-}
-a:hover{
-    background: green;
-    color: white;
-}
-.botones button:hover{
-    background: white;
 }
 
+form{
 
-h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.pregunta input{
     
-    color: white;
+      justify-content: center;
+    
+}
+
+.pregunta {
+    margin-right: 50px;
+}
+
+.hechos{
+    margin-left: 50px;
+}
+
+.hechos input{
+    width: 450px;
+    height: 250px;
+}
+
+
+
+.texto {
     position: relative;
-    bottom: -280px;
+    top: 30px;
+    left: 30%;
+    padding: 10px ;
+    width: 700px;
+    height: 100px;
+    background-color: rgb(191, 196, 201);    
+    border-radius: 10px;
+    
+}
+
+p{
+ text-align: center;
 }
