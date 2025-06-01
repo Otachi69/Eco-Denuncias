@@ -53,17 +53,32 @@ form{
     margin-top: 60px;
 }
 
-.pregunta input{
-    
-      justify-content: center;
-    
+#nombre{
+    margin-left: 10px;
 }
 
+#cc{
+    margin-left: 40px;
+}
+
+#email{
+    margin-left: 28px;
+}
+
+#celular{
+    margin-left: 18px;
+}
+
+#lugar{
+    width: 300px;
+    height: 25px;
+}
 .pregunta {
     margin-right: 50px;
 }
 
 .hechos{
+    
     margin-left: 50px;
 }
 
